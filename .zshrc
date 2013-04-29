@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+ZSH=$HOME/src/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -43,5 +43,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git sublime)
 
 source $ZSH/oh-my-zsh.sh
+source /opt/boxen/env.sh
 
 # Customize to your needs...
